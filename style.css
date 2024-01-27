@@ -1,0 +1,151 @@
+* {
+    background-color: black;
+}
+
+a {
+    cursor: pointer;
+}
+
+#main {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-principal {
+    display: flex;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+}
+
+.imagem-reserva {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.rsv-logo {
+    width: 250px;
+    margin: 0px;
+    padding-left: 1rem;
+}
+
+.rsv-logo img {
+    vertical-align: middle;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.ul-navigation {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.menu {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    width: 100%;
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: aquamarine;
+}
+
+.menu-home {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: auto;
+    height: 42px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    white-space: nowrap;
+    padding: 0px 0.75rem;
+    color: rgb(255, 255, 255)
+}
+
+.menu-cases {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: auto;
+    height: 42px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    white-space: nowrap;
+    padding: 0px 0.75rem;
+    color: rgb(255, 255, 255)
+}
+
+.menu-sobre {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: auto;
+    height: 42px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+    white-space: nowrap;
+    padding: 0px 0.75rem;
+    color: rgb(255, 255, 255)
+}
+
+.esquerdo {
+    max-width: 45%;
+    align-items: center;
+    white-space: wrap;
+    height: 500px;
+}
+
+.esquerdo h3 {
+    position: relative;
+    color: white;
+}
+
+.esquerdo p {
+    position: relative;
+    color: white;
+    text-wrap: wrap;
+}
