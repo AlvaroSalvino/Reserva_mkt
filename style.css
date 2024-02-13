@@ -149,3 +149,8 @@ a {
     color: white;
     text-wrap: wrap;
 }
+
+#masthead {
+    position: sticky;
+    top: 0px;
+}
