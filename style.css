@@ -2,6 +2,10 @@
     background-color: black;
 }
 
+#root {
+    margin: 0;
+}
+
 a {
     cursor: pointer;
 }
@@ -13,18 +17,21 @@ a {
 }
 
 .menu-principal {
+    position: sticky;
     display: flex;
-    justify-content: flex-start;
-    -webkit-box-align: center;
     align-items: center;
-    position: relative;
     width: 100%;
-    height: 70px;
     background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
 }
 
-.imagem-reserva {
-    text-decoration: none;
+.img_reserva {
+    margin: 28px 0 0 30px;
+}
+
+.menu-principal a {
     background-color: transparent;
 }
 
@@ -38,26 +45,17 @@ a {
     vertical-align: middle;
 }
 
+.navbar {
+    margin-right: 10%;    
+}
+
 .navigation {
-    display: flex;
-    flex-direction: row;
-    -webkit-box-align: center;
-    align-items: center;
-    height: 100%;
+
 }
 
 .ul-navigation {
     display: flex;
     flex-direction: row;
-    -webkit-box-align: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    visibility: visible;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
 }
 
 .menu {
@@ -75,61 +73,13 @@ a {
     background-color: aquamarine;
 }
 
-.menu-home {
+.menu-itens {
     display: flex;
     flex-direction: row;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    width: auto;
-    height: 42px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    text-align: center;
-    border-bottom: 4px solid transparent;
-    border-top: 4px solid transparent;
-    white-space: nowrap;
     padding: 0px 0.75rem;
-    color: rgb(255, 255, 255)
-}
-
-.menu-cases {
-    display: flex;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    width: auto;
-    height: 42px;
-    font-size: 1rem;
-    font-weight: 600;
-    text-align: center;
-    border-bottom: 4px solid transparent;
-    border-top: 4px solid transparent;
-    white-space: nowrap;
-    padding: 0px 0.75rem;
-    color: rgb(255, 255, 255)
-}
-
-.menu-sobre {
-    display: flex;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    width: auto;
-    height: 42px;
-    font-size: 1rem;
-    font-weight: 600;
-    text-align: center;
-    border-bottom: 4px solid transparent;
-    border-top: 4px solid transparent;
-    white-space: nowrap;
-    padding: 0px 0.75rem;
-    color: rgb(255, 255, 255)
+    color: #fff;
 }
 
 .esquerdo {
@@ -150,7 +100,3 @@ a {
     text-wrap: wrap;
 }
 
-#masthead {
-    position: sticky;
-    top: 0px;
-}
