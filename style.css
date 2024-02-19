@@ -173,3 +173,39 @@ p {
     text-wrap: wrap;
 }
 
+section {
+    margin: 100px auto;
+}
+
+#cases {
+    width: 800px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #34f7b6;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+#cases .modules-list {
+    margin: 24px 0;
+}
+
+#cases .modules-list .case {
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#cases .modules-list .case span {
+    color: #33A8DB;
+}
