@@ -84,7 +84,7 @@ a {
     background-repeat: no-repeat;
     height: 600px;
     padding-top: 60px;
-    border-bottom: 1px solid #33A8DB80;
+    border-bottom: 1px solid #34f7b6;
 }
 
 .logo {
@@ -200,4 +200,22 @@ h2 {
     width: 496px;
     height: 490px;
     border-radius: 15px 1px 10px 15px;
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #34f7b6;
+}
+
+footer .Reserva-Logo {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #34f7b6;
+    font-weight: bold;
+    text-decoration: none;
 }
