@@ -167,7 +167,7 @@ p {
 
 #cases {
     text-align: center;
-    margin: 100px auto;
+    margin: 75px auto;
 }
 
 h2 {
@@ -180,7 +180,7 @@ h2 {
 }
 
 #cases .modules-list {
-    margin: 24px 0;
+    margin: 35px 0;
     display: flex;
     height: 550px;
     flex-direction: row;
@@ -188,7 +188,7 @@ h2 {
 
 #cases .modules-list .case {
     color: white;
-    margin: 0 auto 24px;
+    margin: 0 auto;
     border: 1px solid #34f7b6;  
     background-color: #252525;
     padding: 16px;
@@ -200,6 +200,34 @@ h2 {
     width: 496px;
     height: 490px;
     border-radius: 15px 1px 10px 15px;
+}
+
+#cases .modules-list .case  h3{
+    margin-top: 7px;
+}
+
+.america {
+    color: #045cb4;
+}
+
+.oftalmed {
+    color: #46b9c9;
+}
+
+.longa {
+    color: #0072bc;
+}
+
+.rabi {
+    color: #f8ca12;
+}
+
+.malta {
+    color: #BA0F14;
+}
+
+#cases .modules-list .case  h3 a:hover{
+    color: #34f7b6;
 }
 
 footer {
