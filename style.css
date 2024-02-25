@@ -82,8 +82,7 @@ a {
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
-    padding-top: 60px;
+    padding: 60px 0px;
     border-bottom: 1px solid #34f7b6;
 }
 
