@@ -141,7 +141,6 @@ p {
 
 .banner-content {
     color: white;
-    width: 600px;
     margin: auto;
     text-align: center;
 }
@@ -168,7 +167,7 @@ section {
     text-align: center;
     margin: 75px auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -249,4 +248,54 @@ footer a {
     color: #34f7b6;
     font-weight: bold;
     text-decoration: none;
+}
+
+@media screen and (min-width: 595px) and (max-width: 725px){
+    .rsv-logo {
+        width: 180px;
+        margin: 0px;
+    }
+    .menu-itens {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0px 2rem;;
+    }
+    footer .Reserva-Logo {
+        width: 180px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 594px){
+    .rsv-logo {
+        width: 140px;
+        margin: 0px;
+    }   
+    .menu-itens {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 1.2vh;
+        border: #fff solid;
+        border-width: 0px 1px;
+    }
+    .ul-navigation {
+        padding-left: 25px;
+    }
+    footer .Reserva-Logo {
+        width: 180px;
+        margin-bottom: 10px;
+    }
+    footer p{
+        font-size: 1rem;
+    }
+    .modules-list .case iframe {
+        width: 380px;
+        border-radius: 15px 1px 10px 15px;
+    }
+    .img_reserva {
+        margin: 10px 0px 0px 0px;
+    }
+    p {
+        font-size: .8em;
+    }
 }
