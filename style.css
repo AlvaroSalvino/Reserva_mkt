@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 .menu-principal {
     position: sticky;
     top: 0px;
@@ -240,7 +244,7 @@ footer {
 }
 
 footer .Reserva-Logo {
-    width: 300px;
+    width: 296px;
     margin-bottom: 10px;
 }
 
