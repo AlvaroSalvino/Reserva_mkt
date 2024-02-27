@@ -11,12 +11,11 @@ body {
 
 a {
     cursor: pointer;
+    text-decoration: none;
 }
 
-#main {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+img {
+    max-width: 100%;
 }
 
 .menu-principal {
@@ -54,10 +53,6 @@ a {
     margin-right: 10%;    
 }
 
-.navigation {
-
-}
-
 .ul-navigation {
     display: flex;
     flex-direction: row;
@@ -91,9 +86,8 @@ a {
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
-    padding-top: 60px;
-    border-bottom: 1px solid #33A8DB80;
+    padding: 60px 0px;
+    border-bottom: 1px solid #34f7b6;
 }
 
 .logo {
@@ -150,11 +144,11 @@ a {
 p {
     color: white;
     font-size: 17px;
+    font-weight: 700;
 }
 
 .banner-content {
     color: white;
-    width: 600px;
     margin: auto;
     text-align: center;
 }
@@ -178,12 +172,12 @@ p {
 }
 
 section {
-    margin: 100px auto;
-}
-
-#cases {
-    width: 800px;
     text-align: center;
+    margin: 75px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 h2 {
@@ -195,21 +189,121 @@ h2 {
     margin-bottom: 24px;
 }
 
-#cases .modules-list {
-    margin: 24px 0;
+.modules-list {
+    margin: 35px 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 4vh;
 }
 
-#cases .modules-list .case {
+.modules-list .case {
     color: white;
-    width: 530px;
-    margin: 0 auto 24px;
-    border: 1px solid #33A8DB;
+    margin: 0 auto;
+    border: 1px solid #34f7b6;  
     background-color: #252525;
     padding: 16px;
-    border-radius: 100px;
+    border-radius: 10px;
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
 }
 
-#cases .modules-list .case span {
-    color: #33A8DB;
+.modules-list .case iframe {
+    width: 496px;
+    height: 490px;
+    border-radius: 15px 1px 10px 15px;
+}
+
+.modules-list .case  h3{
+    margin-top: 7px;
+}
+
+.america {
+    color: #045cb4;
+}
+
+.oftalmed {
+    color: #46b9c9;
+}
+
+.longa {
+    color: #0072bc;
+}
+
+.rabi {
+    color: #f8ca12;
+}
+
+.malta {
+    color: #BA0F14;
+}
+
+.modules-list .case  h3 a:hover{
+    color: #34f7b6;
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #34f7b6;
+}
+
+footer .Reserva-Logo {
+    width: 296px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #34f7b6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 595px) and (max-width: 725px){
+    .rsv-logo {
+        width: 180px;
+        margin: 0px;
+    }
+    .menu-itens {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0px 2rem;;
+    }
+    footer .Reserva-Logo {
+        width: 180px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 594px){
+    .rsv-logo {
+        width: 140px;
+        margin: 0px;
+    }   
+    .menu-itens {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 1.2vh;
+        border: #fff solid;
+        border-width: 0px 1px;
+    }
+    .ul-navigation {
+        padding-left: 25px;
+    }
+    footer .Reserva-Logo {
+        width: 180px;
+        margin-bottom: 10px;
+    }
+    footer p{
+        font-size: 1rem;
+    }
+    .modules-list .case iframe {
+        width: 380px;
+        border-radius: 15px 1px 10px 15px;
+    }
+    .img_reserva {
+        margin: 10px 0px 0px 0px;
+    }
+    p {
+        font-size: .8em;
+    }
 }
