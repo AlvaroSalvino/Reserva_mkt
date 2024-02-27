@@ -137,6 +137,10 @@ a {
     border-radius: 30px;
 }
 
+.elementskit-faq-header::before{
+    content: " ▶";
+}
+
 :hover.banner-content button {
     color: #fff;
     border-image: linear-gradient(#fff, #01a16c);
